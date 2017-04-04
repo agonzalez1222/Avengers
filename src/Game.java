@@ -1,7 +1,8 @@
+import java.io.Serializable;
 
-public class Game {
+public class Game  implements Serializable {
 
-	private int puzzlescompleted;
+	private int puzzlesCompleted;
 	private int currentRoom;
 	private int currentScore;
 	
