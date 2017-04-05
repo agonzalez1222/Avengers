@@ -1,3 +1,4 @@
+package Model;
 
 public class Character {
 	private int healthpoints;
