@@ -2,19 +2,21 @@
 public class Monster 
 {
 	private int health;
-	private  int damageDealt;
+	private  int damageDealtByInsaneCrewPerson;
 	private int damageTaken;
 	
 	protected int dealDamage()
 	{
 		
-		this.damageDealt = (int)(Math.random() * 5 + 1);
-		return this.damageDealt;
+		this.damageDealtByInsaneCrewPerson = (int)(Math.random() * 5 + 1);
+		return this.damageDealtByInsaneCrewPerson;
 	}
 	 
 	protected void takeDamage()
 	{
 		
 	}
+	
+	protected void
 	
 }
