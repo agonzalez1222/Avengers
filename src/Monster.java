@@ -1,7 +1,14 @@
 
 public class Monster 
 {
-	private int crewPersonhealth;
+	private int crewPersonHealth = 10;
+	private int cultistHealth = 15;
+	private int gugHealth = 15;
+	private int ghastHealth = 20;
+	private int miGoHealth = 25;
+	private int elderHealth = 35;
+	private int shoggathHealth = 40;
+	private int greatOneHealth = 50;
 	private int damageDealtByInsaneCrewPerson;
 	private int damageDealtByCultist;
 	private int damageDealtByGug;
@@ -11,6 +18,42 @@ public class Monster
 	private int damageDealtByShoggoth;
 	private int damageDealtByGreatOne;
 	private int damageTaken;
+	
+	private void setCrewPersonHealth(int crewPersonHealth)
+	{
+		this.crewPersonHealth = crewPersonHealth;
+	}
+	
+	private void setCultistHealth(int cultistHealth)
+	{
+		this.cultistHealth = cultistHealth;
+	}
+	
+	private void setGugHealth(int gugHealth)
+	{
+		this.gugHealth = gugHealth;
+	}
+	
+	private void setGhastHealth(int ghastHealth)
+	{
+		this.ghastHealth = ghastHealth;
+	}
+	
+	private void setMiGoHealth(int miGoHealth)
+	{
+		this.miGoHealth = miGoHealth;
+	}
+	
+	private void setElder(int elderHealth)
+	{
+		this.elderHealth = elderHealth;
+	}
+	
+	private void setGreatOne(int greatOneHealth)
+	{
+		this.greatOneHealth = greatOneHealth;
+	}
+	
 	
 	protected int dealDamageForCrewPerson()
 	{
