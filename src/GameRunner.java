@@ -1,8 +1,8 @@
 
 public class GameRunner {
 	
-	public final 
+	//public final 
 	
-	startGame;
+	//startGame();
 
 }
