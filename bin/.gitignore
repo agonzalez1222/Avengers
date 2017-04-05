@@ -1,4 +1,10 @@
+/.metadata/
 /Artifacts.class
 /Character.class
+/Dummy.class
+/Game.class
+/GameRunner.class
 /Items.class
+/Monster.class
+/MonsterTester.class
 /Room.class
