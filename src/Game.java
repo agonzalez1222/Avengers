@@ -5,7 +5,9 @@ public class Game  implements Serializable {
 	private int puzzlesCompleted;
 	private int currentRoom;
 	private int currentScore;
-	
+	//public string Story. put story in there start game
+	public String story; 
+	story = " ";
 	
 	public static void exitGame(){
 		
