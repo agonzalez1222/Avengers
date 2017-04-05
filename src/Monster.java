@@ -1,6 +1,7 @@
 
 public class Monster 
 {
+	// Monster Variables
 	private int crewPersonhealth;
 	private int damageDealtByInsaneCrewPerson;
 	private int damageDealtByCultist;
@@ -11,6 +12,7 @@ public class Monster
 	private int damageDealtByShoggoth;
 	private int damageDealtByGreatOne;
 	private int damageTaken;
+	
 	
 	protected int dealDamageForCrewPerson()
 	{
